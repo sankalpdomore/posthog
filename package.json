@@ -36,7 +36,7 @@
         "format": "yarn format:python && yarn format:js"
     },
     "dependencies": {
-        "@babel/core": "^7.10.4",
+        "@babel/core": "^7.22.6",
         "@babel/runtime": "^7.10.4",
         "@papercups-io/chat-widget": "^1.1.5",
         "@posthog/plugin-scaffold": "0.2.12",
