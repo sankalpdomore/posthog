@@ -38,7 +38,7 @@
     "dependencies": {
         "@babel/core": "^7.10.4",
         "@babel/runtime": "^7.10.4",
-        "@papercups-io/chat-widget": "^1.1.5",
+        "@papercups-io/chat-widget": "^1.3.0",
         "@posthog/plugin-scaffold": "0.2.12",
         "@posthog/react-rrweb-player": "^1.1.1",
         "@posthog/simmerjs": "0.7.4",
