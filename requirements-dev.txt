@@ -13,9 +13,9 @@ attrs==19.3.0
     #   black
     #   flake8-bugbear
     #   pytest
-black==19.10b0
+black==24.3.0
     # via -r requirements-dev.in
-certifi==2020.12.5
+certifi==2023.7.22
     # via requests
 chardet==4.0.0
     # via requests
@@ -33,7 +33,7 @@ django-stubs==1.8.0
     # via
     #   -r requirements-dev.in
     #   djangorestframework-stubs
-django==3.1.8
+django==4.2.15
     # via
     #   -r requirements-dev.in
     #   django-stubs
@@ -41,7 +41,7 @@ django==3.1.8
     #   djangorestframework
 djangorestframework-stubs==1.4.0
     # via -r requirements-dev.in
-djangorestframework==3.12.2
+djangorestframework==3.15.2
     # via -r requirements-dev.in
 entrypoints==0.3
     # via flake8
@@ -71,7 +71,7 @@ flake8==3.7.9
     #   flake8-print
 freezegun==0.3.15
     # via -r requirements-dev.in
-idna==2.10
+idna==3.7
     # via requests
 iniconfig==1.1.1
     # via pytest
@@ -79,7 +79,7 @@ isort==5.2.2
     # via -r requirements-dev.in
 itypes==1.2.0
     # via coreapi
-jinja2==2.11.3
+jinja2==3.1.4
     # via coreschema
 markupsafe==1.1.1
     # via jinja2
@@ -128,11 +128,11 @@ python-dateutil==2.8.1
     # via freezegun
 pytz==2021.1
     # via django
-redis==3.5.3
+redis==4.3.6
     # via fakeredis
 regex==2020.6.8
     # via black
-requests==2.25.1
+requests==2.32.2
     # via
     #   coreapi
     #   djangorestframework-stubs
@@ -145,7 +145,7 @@ six==1.14.0
     #   python-dateutil
 sortedcontainers==2.3.0
     # via fakeredis
-sqlparse==0.3.1
+sqlparse==0.5.0
     # via django
 toml==0.10.1
     # via
@@ -162,9 +162,10 @@ typing-extensions==3.7.4.2
     #   mypy
 uritemplate==3.0.1
     # via coreapi
-urllib3==1.26.4
+urllib3==1.26.19
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
